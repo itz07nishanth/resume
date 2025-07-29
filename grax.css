@@ -1,0 +1,702 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Mulish";
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    font-weight: 400;
+}
+.body-image img{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    display: flex;
+}
+.heading-logo img{
+    width: 110px;
+    margin-left: 80px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.header-lists ul{
+    list-style: none;
+    display: flex;
+    gap: 46px;
+}
+.header-lists li{
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: white;
+    transition: 0.1s;
+}
+.header-lists li:hover{
+    color: brown;
+}
+.menu{
+    margin-top: 36px;
+    margin-left: 89%;
+    cursor: pointer;
+}
+.header-lists .color{
+    color: brown;
+}
+.intro-section{
+    position: absolute;
+    top: 0;
+}
+.introduction{
+    margin-top: 220px;
+    margin-left: 90px;
+}
+.introduction .pain{
+    font-size: 80px;
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+    color: white;
+}
+.introduction .para{
+    color: #ddd;
+    letter-spacing: 1.5px;
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 500;
+    max-width: 400px;
+    font-style: italic;
+    margin-top: 60px;
+}
+.about-image img{
+    width: 75%;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.about-me{
+    display: flex;
+    margin-left: 40px;
+    margin-top: 90px;
+}
+.about-text .me{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: black;
+    margin-top: 80px;
+    font-weight: 500;
+    line-height: 1.4;
+    font-family: "Poppins";
+    font-size: 29px;
+    margin-right: 50px;
+}
+.about-small-texts .king{
+    font-family: "Mulish";
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: rgb(152, 143, 143); 
+    max-width: 600px; 
+    margin-top: 20px; 
+}
+.about-lists{
+    display: flex;
+    margin-left: 10px;
+}
+.about-lists h1{
+    letter-spacing: 1.5px;
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 500;
+    max-width: 400px;
+    font-style: italic;
+    margin-top: 20px;
+    color: black;
+}
+.list-2{
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.list-1{
+    margin-top: 30px;
+}
+.list-2 h2{
+    letter-spacing: 1.2px;
+    font-family: "Poppins";
+    font-size: 17px;
+    font-weight: 500;
+    max-width: 400px;
+    font-style: italic;
+    margin-top: 10px;
+    color: black;
+}
+.download .down{
+    font-family: "Mulish";
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: white;  
+    margin-top: 60px;
+    width: 200px;
+    padding: 12px 36px 15px;
+    border-radius: 5px;
+    background-color: rgb(227, 91, 91);
+    transition: 1s;
+    cursor: pointer;
+}
+.download .down:hover{
+    background-color: white;
+    color: black;
+    border-color: 1px solid rgb(227, 44, 44);
+    border: 1.2px solid rgb(208, 58, 58);
+}
+.selected-images .select{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: black;
+    margin-top: 190px;
+    font-weight: 500;
+    line-height: 1.4;
+    font-family: "Poppins";
+    font-size: 29px;
+    margin-left: 70px;
+}
+.about-images{
+    display: flex;
+    cursor: pointer;
+}
+.about-images-1{
+    display: flex;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.image-1 img{
+    width: 350px;
+    height: 340px; 
+    margin-left: 80px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.image-2 img{
+    width: 350px;
+    height: 340px; 
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.image-3 img{
+    width: 350px;
+    height: 340px; 
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.image-4 img{
+    width: 350px;
+    height: 340px; 
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.image-5 img{
+    width: 350px;
+    height: 340px; 
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.image-6 img{
+    width: 350px;
+    height: 340px; 
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.available-image img{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    margin-top: 120px;
+}
+.available-text .dm{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 3ch;
+    color: antiquewhite;
+    font-family: "Mulish";
+    font-size: 33px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    font-weight: 700;
+}
+.available-text .call{
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 81%;
+    color: antiquewhite;
+    font-family: "Mulish";
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(121, 116, 116);
+    padding-bottom: 6px;
+    width: 135px;
+    cursor: pointer;
+}
+.news-article .new{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: black;
+    margin-top: 190px;
+    font-weight: 500;
+    line-height: 1.4;
+    font-family: "Poppins";
+    font-size: 29px;
+    margin-left: 70px;   
+}
+.news{
+    display: flex;
+}
+.shoes-image img{
+    width: 360px;
+    height: 260px; 
+    margin-left: 67px;
+    margin-top: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.shoes-image-1 img{
+    width: 360px;
+    height: 260px; 
+    margin-left: 25px;
+    margin-top: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.shoes-image-2 img{
+    width: 360px;
+    height: 260px; 
+    margin-left: 25px;
+    margin-top: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.shoe-image-text .shoe{
+    font-family: "Mulish";
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    font-weight: 700;
+    color: black; 
+    max-width: 390px;
+    margin-left: 66px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.shoe-image-text .shoe:hover{
+    color: rgb(187, 67, 67);
+}
+.shoe-image-text .dev{
+    letter-spacing: 1.2px;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 66px;
+    color: #564e4e;
+}
+.shoe-image-text-1 .shoe-1{
+    font-family: "Mulish";
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    font-weight: 700;
+    color: black; 
+    max-width: 350px;
+    margin-left: 30px;
+    margin-top: 20px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.shoe-image-text-1 .shoe-1:hover{
+    color: rgb(187, 67, 67);
+}
+.shoe-image-text-2 .shoe-2{
+    font-family: "Mulish";
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    font-weight: 700;
+    color: black; 
+    max-width: 350px;
+    margin-left: 30px;
+    margin-top: 20px;
+    transition: 0.1s;
+    cursor: pointer;
+}
+.shoe-image-text-2 .shoe-2:hover{
+    color: rgb(187, 67, 67);
+}
+.shoe-image-text-1 .ops{
+    letter-spacing: 1.2px;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #564e4e;
+}
+.shoe-image-text-2 .devops{
+    letter-spacing: 1.2px;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 500;
+    font-style: italic;
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #564e4e;
+}
+.summary .ping{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: black;
+    margin-top: 190px;
+    font-weight: 500;
+    line-height: 1.4;
+    font-family: "Poppins";
+    font-size: 29px;
+    margin-left: 70px;
+}
+.summary .prank{
+    font-family: "Mulish";
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: rgb(102, 96, 96);  
+    margin-top: 70px;
+    max-width: 600px;
+    margin-left: 67px;
+}
+.summary-details .mate{
+    font-family: "Mulish";
+    font-size: 17px;
+    word-wrap: break-word;
+    font-weight: 700;
+    color: black; 
+    margin-left: 18px;
+    margin-top: 21px;
+}
+.summary-details .mat{
+    font-family: "Mulish";
+    font-size: 17px;
+    line-height: 30px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: rgb(102, 96, 96);
+    margin-top: 20px;
+    margin-left: 37px;
+}
+.summary-details{
+    display: flex;
+    margin-left: 66px;
+    margin-top: 30px;
+}
+.summary-details-1{
+    display: flex;
+    margin-left: 66px;
+}
+.summary-details-2{
+    display: flex;
+    margin-left: 66px;
+}
+.summary-details-3{
+    display: flex;
+    margin-left: 66px;
+}
+.summary-details-4{
+    display: flex;
+    margin-left: 66px;
+}
+.summary-details-5{
+    display: flex;
+    margin-left: 66px;
+}
+.fa-location-dot{
+    font-size: 18px;
+    color: black;
+    margin-top: 28px;
+}
+.fa-envelope{
+    font-size: 18px;
+    color: black;
+    margin-top: 28px;
+}
+.fa-phone{
+    font-size: 18px;
+    color: black;
+    margin-top: 28px;
+}
+.fa-instagram{
+    font-size: 23px;
+    color: black;
+    margin-top: 27px;
+}
+.fa-twitter{
+    font-size: 18px;
+    color: white;
+    margin-top: 28px;
+}
+.fa-facebook{
+    font-size: 18px;
+    color: black;
+    margin-top: 28px;
+}
+.summary-details-1 .sit{
+    font-family: "Mulish";
+    font-size: 17px;
+    word-wrap: break-word;
+    font-weight: 700;
+    color: black; 
+    margin-left: 18px;
+    margin-top: 21px;
+}
+.summary-details-1 .stand{
+    font-family: "Mulish";
+    font-size: 17px;
+    line-height: 30px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: rgb(102, 96, 96);
+    margin-top: 20px;
+    margin-left: 55px;
+}
+.summary-details-2 .little{
+    font-family: "Mulish";
+    font-size: 17px;
+    word-wrap: break-word;
+    font-weight: 700;
+    color: black; 
+    margin-left: 18px;
+    margin-top: 21px;
+}
+.summary-details-2 .crazy{
+    font-family: "Mulish";
+    font-size: 17px;
+    line-height: 30px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: rgb(102, 96, 96);
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.summary-details-3 .night{
+    font-family: "Mulish";
+    font-size: 17px;
+    word-wrap: break-word;
+    font-weight: 700;
+    color: black; 
+    margin-left: 18px;
+    margin-top: 21px;
+}
+.summary-details-3 .changes{
+    font-family: "Mulish";
+    font-size: 17px;
+    line-height: 30px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: rgb(102, 96, 96);
+    margin-top: 20px;
+    margin-left: 35px;
+}
+.summary-details-4 .good{
+    font-family: "Mulish";
+    font-size: 17px;
+    word-wrap: break-word;
+    font-weight: 700;
+    color: black; 
+    margin-left: 18px;
+    margin-top: 21px;
+}
+.summary-details-4 .bad{
+    font-family: "Mulish";
+    font-size: 17px;
+    line-height: 30px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: rgb(102, 96, 96);
+    margin-top: 20px;
+    margin-left: 36px;
+}
+.summary-details-5 .ugly{
+    font-family: "Mulish";
+    font-size: 17px;
+    word-wrap: break-word;
+    font-weight: 700;
+    color: black; 
+    margin-left: 18px;
+    margin-top: 21px;
+}
+.summary-details-5 .sorrow{
+    font-family: "Mulish";
+    font-size: 17px;
+    line-height: 30px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: rgb(102, 96, 96);
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.contact-inner{
+    display: flex;
+}
+.summary-touch input{
+    width: 450px;
+    height: 45px;
+    border: 1px solid rgb(135, 122, 122);
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: "Mulish";
+    font-size: 17px;
+    line-height: 30px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: rgb(135, 122, 122);
+    border-radius: 5px;
+}
+.summary-touch-1 input{
+    width: 450px;
+    height: 45px;
+    border: 1px solid rgb(135, 122, 122);
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: "Mulish";
+    font-size: 17px;
+    line-height: 30px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: rgb(117, 112, 112);
+    border-radius: 5px;
+}
+.summary-touch-2 input{
+    width: 450px;
+    height: 130px;
+    border: 1px solid rgb(135, 122, 122);
+    font-size: 16px;
+    font-family: "Mulish";
+    font-size: 17px;
+    line-height: 30px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: rgb(117, 112, 112);
+    border-radius: 5px;
+    padding-bottom: 95px;
+    padding-left: 10px;
+}
+.summary-touch{
+    margin-top: 300px;
+    margin-left: 100px;
+}
+.summary-touch-1{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.summary-touch-2{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.catching .catch{
+    font-family: "Mulish";
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: white;  
+    margin-top: 30px;
+    width: 450px;
+    height: 50px;
+    padding: 8px 166px 15px;
+    border-radius: 5px;
+    background-color: rgb(227, 91, 91);
+    transition: 1s;
+    margin-left: 100px;
+    cursor: pointer;
+}
+.catching .catch:hover{
+    background-color: white;
+    color: black;
+    border-color: 1px solid rgb(227, 44, 44);
+    border: 2px solid rgb(208, 58, 58);
+}
+.submission-section{
+    background-color: black;
+    width: 100%;
+    height: 40vh;
+    margin-top: 150px;
+}
+.submit-logo img{
+    max-width: 100px;
+    margin-left: 80px;
+    margin-top: 120px;
+}
+.submission-section{
+    display: flex;
+}
+.submit-fonts ul{
+    display: flex;
+    list-style: none;
+    font-size: 17px;
+    color: antiquewhite;
+    margin-top: 75px;
+    margin-left: 300px;
+    cursor: pointer;
+}
+.submit-fonts li{
+    padding: 17px;
+}
+.fa-globe{
+    font-size: 18px;
+    color: antiquewhite;
+    margin-top: 27px;
+}
+.fa-linkedin{
+    font-size: 21px;
+    color: black;
+    margin-top: 27px;   
+}
+.fa-facebook-f{
+    font-size: 18px;
+    color: antiquewhite;
+    margin-top: 27px;
+}
+.fa-tiktok{
+    font-size: 18px;
+    color: antiquewhite;
+    margin-top: 27px;
+}
+.copyrights .copy{
+    margin-top: 113px;
+    margin-left: 270px;
+    font-size: 13px;
+    color: white;
+}
